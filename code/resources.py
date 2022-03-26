@@ -27,10 +27,12 @@ def loadResources(gamepath):
     resourcesManager["soldier"] = pygame.image.load(os.path.join(gamepath, "data", "g", "soldier.png"))
     resourcesManager["water"] = pygame.image.load(os.path.join(gamepath, "data", "g", "water.png"))
     resourcesManager["grass"] = pygame.image.load(os.path.join(gamepath, "data", "g", "grass.png"))
+    resourcesManager["grass128"] = pygame.image.load(os.path.join(gamepath, "data", "g", "grass128.png"))
     resourcesManager["lighthouse"] = pygame.image.load(os.path.join(gamepath, "data", "g", "lighthouse.png"))
 
     resourcesManager["skull"] = pygame.image.load(os.path.join(gamepath, "data", "g", "skull1.png"))
     resourcesManager["crystal"] = pygame.image.load(os.path.join(gamepath, "data", "g", "crystal1.png"))
+    resourcesManager["crystal128"] = pygame.image.load(os.path.join(gamepath, "data", "g", "crystal128.png"))
     resourcesManager["iron"] = pygame.image.load(os.path.join(gamepath, "data", "g", "iron1.png"))
     resourcesManager["coin"] = pygame.image.load(os.path.join(gamepath, "data", "g", "coin1.png"))
 
